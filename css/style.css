@@ -28,3 +28,23 @@ a:hover {
     color: var(--accent-color);
     font-weight: bold;
 }
+
+div#container {
+    display: flex;
+    flex-direction: column;
+}
+
+div#content {
+    display: inherit;
+}
+
+div#content section {
+    width: 80vw;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#content aside {
+    width: 20vw;
+}
